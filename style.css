@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  background-color: #4ed0fc;
+}
+.sign_in {
+  position: absolute;
+  width: 280px;
+  height: auto;
+  padding: 15px;
+  background-color: rgb(241, 253, 253);
+  border-radius: 30px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign_in input {
+
+  border-radius: 40px;
+  border: 2px solid #46a6f5;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #6b8f9b
+
+}
+.sign_in input [contenteditable] {
+  outline: 0px solid transparent;
+  
+}
+.sign_in h2 {
+  color: #035d7a;
+}
+.sign_in a {
+  color: #035d7a;
+}
+.btn {
+  width: 180px;
+  color: FFF !important;
+  background-color: #46a6f5;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 18px;
+}
+.btn:hover {
+  transform: scale(0.96);
+}
